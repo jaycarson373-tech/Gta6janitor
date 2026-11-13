@@ -22,8 +22,8 @@ Serve `dist` using any static host. Local preview: `python3 -m http.server 4173 
 4. Implement backend membership, identity verification, hiring, contract evidence, moderation, and wallet ownership/token balance checks. Browser-local cards are explicitly provisional and grant no access.
 5. Choose a supported roleplay platform. GTA 6 expansion is conditional on available tools and platform rules; do not advertise a working GTA 6 server until verified.
 
-All jobs/employers are visibly illustrative. No balances, users, salaries, payments, endorsements, or affiliations are fabricated. No analytics or user-data submission. Saved examples and cards stay in the visitor's browser. External Google Fonts are used; the hero artwork is local.
+All jobs/employers are visibly illustrative. No balances, users, salaries, payments, endorsements, or affiliations are fabricated. No analytics or user-data submission. Saved examples and cards stay in the visitor's browser. Fonts and artwork are hosted locally. Font license notices are included in dist/assets.
 
 ## Deploy
 
-Static output: `dist/`. Sites manifest: `.openai/hosting.json`. GitHub serves as an independent source backup; publish the exact committed output. Hosting does not activate token, DAO, server, or fee routing.
+Static output: `dist/`. Sites manifest: `.openai/hosting.json`. A separate GitHub copy can be added when repository-creation permission is available; publish the exact committed output. Hosting does not activate token, DAO, server, or fee routing.
