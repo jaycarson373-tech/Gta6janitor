@@ -26,4 +26,6 @@ All jobs/employers are visibly illustrative. No balances, users, salaries, payme
 
 ## Deploy
 
-Static output: `dist/`. Sites manifest: `.openai/hosting.json`. A separate GitHub copy can be added when repository-creation permission is available; publish the exact committed output. Hosting does not activate token, DAO, server, or fee routing.
+GitHub: https://github.com/jaycarson373-tech/Gta6janitor
+
+Static output: `dist/`. Sites manifest: `.openai/hosting.json`. Publish the exact committed output. Hosting does not activate token, DAO, server, or fee routing.
