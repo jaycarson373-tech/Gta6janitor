@@ -1,31 +1,43 @@
 # GTA 6 Janitor — Local 6
 
-Original static website for the independent GTA roleplay janitors union concept. Ticker: **JANITOR**. Fresh repository; no prior project code reused.
+A professional frontend network for an independent GTA roleplay janitors union. Ticker: **JANITOR**. Membership threshold: **at least 5,000,000 JANITOR**. GitHub: https://github.com/jaycarson373-tech/Gta6janitor
 
-## Run
+## Run and deploy
 
-Serve `dist` using any static host. Local preview: `python3 -m http.server 4173 --directory dist`. No build or npm installation required. `node --check dist/app.js` validates JavaScript syntax. Vercel configuration is included.
+Serve `dist/` with any static host. Local preview: `python3 -m http.server 4173 --directory dist`. No build or dependency installation is required. Syntax checks: `node --check dist/app.js` and `node --check dist/agreement.js`. Vercel configuration is included. Sites identity is retained in `.openai/hosting.json`.
 
-## Included
+## Frontend features
 
-- Original commissioned-by-generation coastal janitor illustration, responsive professional jobs-network layout, animated conveyor with pause and reduced-motion support.
-- Searchable example job board, category filters, browser-local saved shifts, contract details.
-- Provisional union-card generator and downloadable SVG, draft hiring-brief download, union-charter download.
-- Explicit 100% collected project fees to the union policy; no separate 10% buyback allocation.
-- Server roadmap, planned holder-only DAO, transparent launch-status dialog.
+- Direct “Quit your job. Become a GTA 6 janitor.” campaign; $100K/year presented as an unfunded ambition, with an interactive funding calculator.
+- Community feed, job marketplace, server directory, and union transaction view.
+- Labeled worker, owner, and non-holder preview personas; distinct token-holder and verification badges.
+- Browser-local work posts, job drafts, server listings, saved jobs, likes, and application drafts. Users can delete their drafts. No shared database or publishing.
+- Downloadable job briefs, applications, and provisional union cards; no wallet verification implied.
+- Vice City-inspired original district concept with interactive job locations. Flagship server explicitly in development.
+- Separate ten-article **Union Workers’ Agreement** at `agreement.html`, with print-to-PDF support.
+- AI-illustrated Adin Ross and FaZe Banks portraits, separately labeled. Click-to-load source X clips and original-source links. No generated celebrity speech.
+- Self-hosted fonts and original generated artwork, responsive layout, keyboard dialogs, animation pause, and reduced-motion support.
 
-## Before a real launch
+## Media provenance
 
-1. Provide official token mint and launch link; decide holding threshold and verification/snapshot rules.
-2. Provide Discord invitation, official social links, and supported roleplay server details.
-3. Specify fee source and rate, treasury address and signer policy, collection/routing implementation, approved allocations and payout/dispute rules. This site performs no financial transactions.
-4. Implement backend membership, identity verification, hiring, contract evidence, moderation, and wallet ownership/token balance checks. Browser-local cards are explicitly provisional and grant no access.
-5. Choose a supported roleplay platform. GTA 6 expansion is conditional on available tools and platform rules; do not advertise a working GTA 6 server until verified.
+The excerpts are from published coverage; direct X pages returned HTTP 403 during research. The player loads their source posts and provides fallback links. These clips concern the speakers' own proposed servers, not an endorsement of this project. No $100K janitor quotation was verified.
 
-All jobs/employers are visibly illustrative. No balances, users, salaries, payments, endorsements, or affiliations are fabricated. No analytics or user-data submission. Saved examples and cards stay in the visitor's browser. Fonts and artwork are hosted locally. Font license notices are included in dist/assets.
+- Adin Ross: https://gta6bible.com/streamers-think-that-gta-6-could-turn-in-game-jobs-into/ and https://www.gamingbible.com/news/gta-6-adin-ross-server-paid-play-game-636080-20260619
+- Source post: https://x.com/AdinUpdate/status/2060234010781954189
+- Banks/Ross server-economy discussion: https://decrypt.co/304597/adin-ross-faze-banks-crypto-gta-6-server
+- Source post: https://x.com/vvsrak/status/1886588181128339611
 
-## Deploy
+Portraits are generated illustrations, not footage, documentary evidence, or endorsements. Font licenses are in `dist/assets/`.
 
-GitHub: https://github.com/jaycarson373-tech/Gta6janitor
+## Backend handoff
 
-Static output: `dist/`. Sites manifest: `.openai/hosting.json`. Publish the exact committed output. Hosting does not activate token, DAO, server, or fee routing.
+1. Publish the official mint, wallet-proof flow, token balance checks, qualification timing, and privacy terms. Never trust the frontend persona selector or local storage for authorization.
+2. Implement users, verification evidence, roles, moderation, shared posts, job listings, application delivery, ownership reviews, and notifications. Validate and escape all data server-side; add rate limits, audit logs, abuse reporting, and deletion workflows.
+3. Define contract terms, approval and dispute workflows, payout currency, any escrow, and actual funded reward rules. Token holdings must not erase rights to agreed payments.
+4. Publish fee source/rate, treasury/signers, spending rules, and transaction indexing. The policy is **100% of collected project fees to the union**, with no separate buyback allocation. It is not yet implemented.
+5. Confirm the game platform, tools, hosting, ownership, and permitted integrations. No working GTA 6 server or token-gated game integration is promised.
+6. Adopt DAO voting, quorum, proposal, delegation, and budget rules. The draft agreement is a product proposal, not an executed labor contract.
+
+## Data and privacy
+
+First-party functionality is static and browser-local. No wallet connection, payment, real verification, shared posting, or application submission occurs. X's external script is requested only after the user opens a source clip. Browser storage can be cleared to remove local data. Simulated transaction rows are opt-in and clearly labeled; there are no fake chain signatures or balances.
