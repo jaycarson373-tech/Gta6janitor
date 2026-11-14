@@ -10,19 +10,18 @@ Owner-authorized frontend update, November 13, 2026. Existing Local 6 artwork, j
 - Homepage prioritizes a union fund, not a hypothetical salary figure. Original salary budgeting dialog remains available in the code; the quote cards accurately contextualize the speakers' own statements.
 - Three quote cards use original frames, local video and timestamped captions. Names/order supplied by owner: TJR, Adin Ross, Razmers. See CLIP-QUOTES.json. Remove/revise attribution if owner corrects it; do not independently identify faces.
 
-## TTWO — proposed quote asset
+## DacityCoin — proposed quote asset
 
-Owner confirmed “2-2 stock” means Take-Two / TTWO. Both primary sources list the same Solana asset:
+Owner replaced the earlier Take-Two / TTWO proposal with **AudaCity ($DacityCoin)**. Verify the exact Solana mint, not a similarly named coin:
 
-`TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo`
+`DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump`
 
-- Backpack issuer asset list: https://wallet.backpack.exchange/tokenized-stocks/assets
-- Pump supported pairs: https://pump.fun/docs/custom-pairs
-- Take-Two corporate identity: https://www.take2games.com/en/ir
+- Token identity: https://pump.fun/coin/DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump
+- Pairing documentation: https://pump.fun/docs/custom-pairs
 
-Sources checked November 13, 2026. These establish the quote asset listing, not that JANITOR has launched, is paired, owns stock, or has collected fees. No project mint, treasury or pool is supplied. No transfer/purchase is authorized by this frontend change. Issuer eligibility and venue rules still apply.
+Checked November 13, 2026. Pump identified AudaCity / DacityCoin and displayed roughly $4.44M market cap at lookup; this transient figure is not hardcoded into the website. No JANITOR mint, treasury or pool has been supplied. The frontend names the intended quote asset; it does not create or migrate a pool.
 
-Pump documents creator fees being denominated in the paired asset. For a verified JANITOR/TTWO launch, account for collected TTWO directly; do not invent an additional buy-TTWO conversion from SOL. If a real fee source differs, publish the actual conversion receipt and amounts separately.
+For the actual JANITOR/DacityCoin launch, verify the venue's supported secondary-pair path and resulting pool quote mint before enabling receipts. Account in DacityCoin for fees actually collected in that asset. AudaCity's own TTWO pairing does not mean JANITOR fees are TTWO. Never relabel historical TTWO records as DacityCoin: keep their asset identity and display conversion receipts separately if ever relevant. No historic records exist in the current null snapshot.
 
 ## Fund contract for doctadog
 
@@ -34,8 +33,8 @@ Required shape is in the JSON file:
 - `status: "unconfigured"` until verified; `"verified"` only for a reconciled server-produced record.
 - `projectMint`, exact `quoteMint`, `treasuryAddress`, chain-verified `decimals`.
 - `feesCollectedRaw`: cumulative creator/project fees actually received, excluding trading volume, unclaimed fees and unrelated deposits.
-- `workerAllocatedRaw`: outstanding approved TTWO worker reserves, still held in custody. Never cumulative paid-plus-unpaid rewards.
-- `rewardsPaidRaw`: cumulative finalized, deduplicated TTWO payouts to approved workers.
+- `workerAllocatedRaw`: outstanding approved DacityCoin worker reserves, still held in custody. Never cumulative paid-plus-unpaid rewards.
+- `rewardsPaidRaw`: cumulative finalized, deduplicated DacityCoin payouts to approved workers.
 - `treasuryBalanceRaw`: reconciled current token balance; worker allocation cannot exceed it.
 - `updatedAt`: ISO UTC timestamp of reconciliation, not merely response generation.
 
@@ -45,7 +44,7 @@ The client validation is presentation hygiene, not a cryptographic proof. Backen
 
 ## Policy preserved
 
-100% of collected project fees is earmarked for the union. The internal worker/server/reserve budget is still unadopted. The TTWO worker-allocation card displays only the actual approved worker portion; it does not quietly commit 100% to immediate payouts or move funds. Holding JANITOR confers no Take-Two share ownership or claim on treasury assets.
+100% of collected project fees is earmarked for the union. The internal worker/server/reserve budget is still unadopted. The DacityCoin worker-allocation card displays only the actual approved worker portion; it does not quietly commit 100% to immediate payouts or move funds. Holding JANITOR confers no ownership of AudaCity or claim on treasury assets.
 
 ## Design and checks
 

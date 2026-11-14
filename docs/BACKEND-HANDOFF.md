@@ -1,7 +1,7 @@
 # GTA 6 Janitors / Local 6 — backend handoff
 
 Prepared 13 November 2026. Status: implementation brief, not an operating backend.
-Frontend baseline inspected: `23dfebb` on `main`. November 13 frontend follow-up changes the public name/ticker to GTA 6 Janitors / JANITOR; see [the update](JANITOR-FRONTEND-UPDATE.md) for the TTWO asset and homepage data contract.
+Frontend baseline inspected: `23dfebb` on `main`. November 13 frontend follow-up changes the public name/ticker to GTA 6 Janitors / JANITOR; see [the update](JANITORS-FRONTEND-UPDATE.md) for the DacityCoin asset and homepage data contract.
 
 ## 1. Product in plain English
 

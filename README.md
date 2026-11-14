@@ -8,7 +8,7 @@ Serve `dist/` with any static host. Local preview: `python3 -m http.server 4173 
 
 ## Frontend features
 
-- Direct “Quit your job. Become a GTA 6 janitor.” campaign, with a main-page TTWO fund panel and proposed JANITOR / TTWO pairing.
+- Direct “Quit your job. Become a GTA 6 janitor.” campaign, with a main-page DacityCoin fund panel and proposed JANITOR / DacityCoin pairing.
 - Community feed, job marketplace, server directory, and union transaction view.
 - Labeled worker, owner, and non-holder preview personas; distinct token-holder and verification badges.
 - Browser-local work posts, job drafts, server listings, saved jobs, likes, and application drafts. Users can delete their drafts. No shared database or publishing.
@@ -26,7 +26,7 @@ The remarks discuss proposed servers and hypothetical earnings, not a funded sal
 
 ## Fund display
 
-`dist/assets/fund.json` is an unconfigured, read-only data contract with null balances. `dist/fund.js` renders verified snapshots only, checks mint/network, exact integer amounts and freshness, and distinguishes zero from missing data. No wallet or financial transaction is connected by this change. [Release and integration details](docs/JANITOR-FRONTEND-UPDATE.md).
+`dist/assets/fund.json` is an unconfigured, read-only data contract with null balances. `dist/fund.js` renders verified snapshots only, checks mint/network, exact integer amounts and freshness, and distinguishes zero from missing data. No wallet or financial transaction is connected by this change. [Release and integration details](docs/JANITORS-FRONTEND-UPDATE.md).
 
 Target domain: `gta6janitors.fun`. Apex redirects to https://www.gta6janitors.fun/ and both the www domain and https://gta6janitor.vercel.app serve the existing frontend (verified November 13). Metadata uses the www canonical.
 
