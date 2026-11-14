@@ -71,3 +71,8 @@ Owner supplied official X: https://x.com/GTA6Janitors. Both header icons now lin
 
 ### Header alignment fix — 2026-11-13
 Grouped the right-side controls, removed the large desktop gap before X, matched mobile button heights, and replaced the text hamburger with an SVG icon. Checked home and agreement pages at 320, 390, 820 and 1280px: no horizontal overflow; navigation toggle, membership dialog and official X target verified. CA remains Soon.
+
+### Night palette polish — 2026-11-13
+Owner requested a darker presentation closer to the supplied VI logo. Added a scoped screen-only night stylesheet: near-black plum header and hero, larger original VI emblem, sunset-pink headline, stronger CTA contrast, dark fund ledger and original-footage cards, and a compact dark footer. Community feed and district map retain light reading surfaces. Short entrance motion honors reduced-motion preferences. Print styling, text, financial policies, quote attribution and all frontend behavior remain intact.
+
+Researched 21st.dev and React Bits Animated Content for component options; implemented original CSS without copying components or adding dependencies. Direction comes from the owner-supplied logo. Home and agreement checked at 320/390/820/1280px with no overflow or page exceptions. Navigation, Join dialog, original video opening/closing and lazy poster loading verified. Syntax and diff checks passed. No backend or financial activation.

@@ -1,0 +1,59 @@
+/* Local 6 after dark. Original styling drawn from the supplied VI artwork. */
+.header{background:#0b0714f2;border-color:#ffffff16;color:#fcf3ff}
+.header .brand img{width:52px;height:52px;border-radius:9px;box-shadow:0 0 0 1px #f685d426}
+.header .brand small{color:#bda4c9}.nav nav{color:#e7d7ed}.nav nav a:hover{color:#ff86ca}
+.header-actions>.button,.hero-actions .button.dark{background:#f285c7;color:#230b2d;border-color:#f9a3d6;box-shadow:0 4px 18px #dd43a61a}
+.header-actions>.button:hover,.hero-actions .button.dark:hover{background:#ffa0d8;box-shadow:0 6px 25px #e64ea52b}
+.header-actions .x-social,.header-actions .menu-toggle{background:#21142c;color:#f8eafa;border-color:#51315e}
+.header-actions .x-social:hover,.header-actions .menu-toggle[aria-expanded=true]{background:#35203f;border-color:#dd7cb4}
+.header-actions :focus-visible{outline-color:#ffa1d8}.contract-strip{background:#110a1c;border-color:#ffffff10;padding:13px 0}
+.contract-chip{background:#21132d;border-color:#6d3c7066;border-radius:8px;box-shadow:none;padding:8px 18px}
+.contract-token{color:#ff91ce}.contract-label{color:#c3a8d0;border-color:#684572}.contract-chip strong{color:#faebff}
+.hero{isolation:isolate;background:#0c0716;color:#fff4fb}
+.hero-art{filter:saturate(.9) brightness(.7);opacity:.78}
+.hero-shade{background:linear-gradient(90deg,#0c0716 0%,#13091eea 34%,#170c2855 72%),linear-gradient(0deg,#0c0716 0%,transparent 40%)}
+.hero-inner{padding-top:57px;min-height:670px}
+.hero h1{font-size:clamp(67px,6.9vw,100px);letter-spacing:-.8px;text-shadow:0 3px 22px #07031060}
+.hero h1 span{color:#ff83c7;background:linear-gradient(110deg,#ff98db 10%,#ef60c5 55%,#ffb07e);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero .eyebrow{color:#f0b4d8;letter-spacing:2px}.hero .eyebrow i{background:#ff84cb;box-shadow:0 0 10px #f46bc366}
+.hero-lead{color:#f6e2f1;font-size:21px}.hero-body{color:#c9b4d1;font-size:13px}
+.hero-actions .button{min-height:48px;border-radius:7px}
+.hero-actions .button.glass{background:#24162bbb;border-color:#82618b;color:#f7e4ef}
+.hero-actions .button.glass:hover{background:#38213f}
+.hero-membership{color:#d3bcd9}.hero-membership b{color:#ffe1f3}.union-emblem{border-color:#d37fbe55;box-shadow:0 5px 25px #05020c55}
+.hero-tag{background:#160d23dd;color:#efcedd;border-color:#c68ba74a;transform:rotate(2deg);box-shadow:0 8px 30px #07021044}.hero-tag b{color:#ffafd1}
+.hero-identity{position:absolute;z-index:1;right:max(56px,calc((100vw - 1300px)/2));top:62px;width:310px;height:310px;object-fit:contain;mix-blend-mode:screen;pointer-events:none;filter:drop-shadow(0 12px 30px #0c041d70)}
+.hero-inner{z-index:2}.hero-fund{background:#130b20ed;border-color:#d481b45c;box-shadow:0 16px 45px #05020f55;border-radius:12px}
+.hero-fund>span{color:#e6b6d4}.hero-fund strong{color:#ffa5d3}.hero-fund p{color:#ddc7e3}.hero-fund small{color:#bfa4cc}
+.conveyor{background:#1b0e28;border-width:1px;border-color:#70416e;font-weight:500}.conveyor-label{background:#25122f;border-color:#74416c}.belt-items{letter-spacing:1.5px}.conveyor .belt-items b{color:#ff91ca}
+.fund-section{background:#100a1a;color:#f8edf9;max-width:none;padding-left:max(48px,calc((100vw - 1324px)/2));padding-right:max(48px,calc((100vw - 1324px)/2));padding-top:55px;padding-bottom:52px}
+.fund-heading .eyebrow{color:#ed93c5}.fund-heading h2{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:46px;letter-spacing:0}.fund-heading>p{color:#c2aecb}
+.fund-board{background:#1a1026;border-color:#63436880;box-shadow:0 15px 40px #05020c22;border-radius:12px}.fund-board-top,.fund-metrics>div,.fund-route,.fund-board-bottom{border-color:#ffffff15}
+.fund-pair small{background:#38223f;color:#f1b8d6}.fund-status{color:#c6b1cf}.fund-metrics span,.fund-metrics small{color:#c4accf}.fund-metrics strong{color:#fae8f7}
+.fund-reserved{background:linear-gradient(110deg,#381a3c,#281432);border-top:2px solid #e477b5}.fund-reserved strong{color:#ff9dd4}
+.fund-route{background:#140c20}.fund-route span{color:#efa8d0}.fund-route b{color:#f8e9f6}.fund-route small{color:#c6afce}
+.fund-board-bottom,.fund-details{color:#bda6c9}.fund-board-bottom a,.fund-details summary{color:#edadd3}
+.network-section{border-top:0;padding-top:52px}.section-intro h2{font-size:30px}.panel,.feed-card,.job-card,.directory-card,.composer{box-shadow:0 3px 15px #30113e04;border-color:#dfd1e4}
+.culture-section{background:#110b1c;color:#f8eefb;border-top:1px solid #38203f;border-bottom:1px solid #38203f;padding-top:55px;padding-bottom:40px}
+.culture-heading .eyebrow{color:#ee9aca}.culture-heading h2{font-family:'Barlow Condensed',sans-serif;font-size:42px;letter-spacing:0;text-transform:uppercase;line-height:1.05}
+.culture-heading>p,.culture-section .source-note{color:#baa4c8}
+.source-grid .clip-card{background:#20132c;border-color:#5c396a66;box-shadow:0 10px 30px #05020920}.source-grid .quote-speaker{color:#ff91ca}.source-grid .text-button{color:#eaa7d1}
+.source-grid blockquote{color:#f0e0f4}.source-poster{background:#0a0611}.source-play{background:#ff9acf;color:#24102f}
+.manifesto-section{background:#1a0d27;border-top:1px solid #3f244b}.manifesto-copy h2{font-family:'Barlow Condensed',sans-serif;font-size:44px;text-transform:uppercase;letter-spacing:0}.manifesto-copy p{color:#c7afcf}
+footer{background:#0b0712;color:#f9effd;border-top:1px solid #ffffff12}.footer-top>div,.footer-top button{color:#c4accf}.footer-domain{color:#f2a7d0}footer p{color:#b49bbe;border-color:#ffffff18}
+@media(min-width:701px) and (max-width:1100px){.hero-identity{right:28px;width:235px;height:235px;top:96px}.fund-section{padding-left:30px;padding-right:30px}}
+@media(max-width:700px){
+ .header .brand img{width:42px;height:42px}.header .brand{font-size:12px}.header .nav nav{background:#160d21;border-bottom:1px solid #604065;box-shadow:0 10px 25px #08020e55}
+ .header-actions .menu-toggle,.header-actions .x-social{background:#21142c;color:#f8eafa;border-color:#51315e}
+ .hero-inner{padding-top:32px;min-height:910px;padding-bottom:240px}.hero h1{font-size:clamp(53px,13.5vw,83px);line-height:.98;margin-top:23px}
+ .hero .eyebrow{font-size:7px;letter-spacing:1.6px}.hero-lead{font-size:18px}.hero-body{font-size:12px;max-width:350px}
+ .hero-shade{background:linear-gradient(180deg,#0c0716 0%,#10081a 42%,#11091e85 65%,#0c0716 100%)}
+ .hero-art{background-size:auto 510px;background-position:65% bottom;opacity:.75;filter:brightness(.85) saturate(.85)}
+ .hero-identity{width:185px;height:185px;top:auto;bottom:205px;right:24px;opacity:.9}
+ .hero-tag{bottom:315px;right:auto;left:20px;font-size:6px;max-width:145px;gap:5px;padding:8px;flex-wrap:wrap}
+ .hero-actions .button{font-size:10px;padding:12px 14px}.hero-membership{margin-top:23px}.hero-fund{bottom:20px}
+ .fund-section{padding:35px 20px}.fund-heading h2{font-size:36px}.fund-heading>p{font-size:12px}.fund-reserved{border-bottom-color:#ffffff15!important}
+ .network-section{padding-top:35px}.section-intro h2{font-size:27px}.culture-section{padding-top:36px}.culture-heading h2{font-size:36px}.manifesto-copy h2{font-size:36px}
+}
+@media(prefers-reduced-motion:no-preference){.hero h1,.hero-lead,.hero-actions{animation:night-enter .65s both}.hero-lead{animation-delay:.08s}.hero-actions{animation-delay:.14s}@keyframes night-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
+@media(max-width:700px){.hero-art{top:350px;background-size:cover;background-position:65% center;mask-image:linear-gradient(to bottom,transparent,#000 40%)}}
