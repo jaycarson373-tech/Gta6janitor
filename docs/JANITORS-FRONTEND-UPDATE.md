@@ -68,3 +68,6 @@ Responsive screenshots and browser results are recorded with the release. Backen
 Added compact `$JANITOR · CA · Soon` box below the homepage header. No mint or copy action is fabricated. Added an X-logo slot at the top right on homepage/agreement; official handle is still missing, so the button is visibly marked Soon and disabled with an accessible explanation. Replace with the exact official link when owner supplies it. Header action labels shorten on phones; membership and menu functions remain available.
 
 Owner supplied official X: https://x.com/GTA6Janitors. Both header icons now link to that account; Soon label removed. CA remains Soon pending mint.
+
+### Header alignment fix — 2026-11-13
+Grouped the right-side controls, removed the large desktop gap before X, matched mobile button heights, and replaced the text hamburger with an SVG icon. Checked home and agreement pages at 320, 390, 820 and 1280px: no horizontal overflow; navigation toggle, membership dialog and official X target verified. CA remains Soon.
