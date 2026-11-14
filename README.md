@@ -1,4 +1,4 @@
-# GTA 6 Janitor — Local 6
+# GTA 6 Janitors — Local 6
 
 A professional frontend network for an independent GTA roleplay janitors union. Ticker: **JANITOR**. Membership threshold: **at least 5,000,000 JANITOR**. GitHub: https://github.com/jaycarson373-tech/Gta6janitor
 
@@ -8,26 +8,27 @@ Serve `dist/` with any static host. Local preview: `python3 -m http.server 4173 
 
 ## Frontend features
 
-- Direct “Quit your job. Become a GTA 6 janitor.” campaign; $100K/year presented as an unfunded ambition, with an interactive funding calculator.
+- Direct “Quit your job. Become a GTA 6 janitor.” campaign, with a main-page TTWO fund panel and proposed JANITOR / TTWO pairing.
 - Community feed, job marketplace, server directory, and union transaction view.
 - Labeled worker, owner, and non-holder preview personas; distinct token-holder and verification badges.
 - Browser-local work posts, job drafts, server listings, saved jobs, likes, and application drafts. Users can delete their drafts. No shared database or publishing.
 - Downloadable job briefs, applications, and provisional union cards; no wallet verification implied.
 - Vice City-inspired original district concept with interactive job locations. Flagship server explicitly in development.
 - Separate ten-article **Union Workers’ Agreement** at `agreement.html`, with print-to-PDF support.
-- AI-illustrated Adin Ross and FaZe Banks portraits, separately labeled. Click-to-load source X clips and original-source links. No generated celebrity speech.
+- Three actual source-footage quote cards, owner-attributed to TJR, Adin Ross and Razmers. Local MP4 excerpts with captions, timestamps, keyboard controls and playback cleanup.
 - Self-hosted fonts and original generated artwork, responsive layout, keyboard dialogs, animation pause, and reduced-motion support.
 
 ## Media provenance
 
-The excerpts are from published coverage; direct X pages returned HTTP 403 during research. The player loads their source posts and provides fallback links. These clips concern the speakers' own proposed servers, not an endorsement of this project. No $100K janitor quotation was verified.
+Owner supplied `copy_C05BF743-71C0-4963-8930-52FF4FF8C7F9.mov` on November 13, 2026. The first 28.5 seconds contain the three excerpts. Original images/audio are preserved in a web-encoded MP4; still frames are cropped only to remove black letterboxing. Transcription was performed locally. Speaker attribution follows the owner's supplied order, not facial identification. Exact excerpts and source timestamps: [docs/CLIP-QUOTES.json](docs/CLIP-QUOTES.json).
 
-- Adin Ross: https://gta6bible.com/streamers-think-that-gta-6-could-turn-in-game-jobs-into/ and https://www.gamingbible.com/news/gta-6-adin-ross-server-paid-play-game-636080-20260619
-- Source post: https://x.com/AdinUpdate/status/2060234010781954189
-- Banks/Ross server-economy discussion: https://decrypt.co/304597/adin-ross-faze-banks-crypto-gta-6-server
-- Source post: https://x.com/vvsrak/status/1886588181128339611
+The remarks discuss proposed servers and hypothetical earnings, not a funded salary or endorsement of this project. The old generated portraits and unrelated X embeds are no longer displayed. Font licenses are in `dist/assets/`.
 
-Portraits are generated illustrations, not footage, documentary evidence, or endorsements. Font licenses are in `dist/assets/`.
+## Fund display
+
+`dist/assets/fund.json` is an unconfigured, read-only data contract with null balances. `dist/fund.js` renders verified snapshots only, checks mint/network, exact integer amounts and freshness, and distinguishes zero from missing data. No wallet or financial transaction is connected by this change. [Release and integration details](docs/JANITOR-FRONTEND-UPDATE.md).
+
+Target domain: `gta6janitors.fun`. Apex redirects to https://www.gta6janitors.fun/ and both the www domain and https://gta6janitor.vercel.app serve the existing frontend (verified November 13). Metadata uses the www canonical.
 
 ## Backend handoff
 

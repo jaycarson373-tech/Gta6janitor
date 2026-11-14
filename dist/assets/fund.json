@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "status": "unconfigured",
+  "network": "solana-mainnet",
+  "projectMint": null,
+  "quoteMint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+  "treasuryAddress": null,
+  "decimals": null,
+  "feesCollectedRaw": null,
+  "workerAllocatedRaw": null,
+  "rewardsPaidRaw": null,
+  "treasuryBalanceRaw": null,
+  "updatedAt": null
+}

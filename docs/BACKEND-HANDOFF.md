@@ -1,7 +1,7 @@
-# GTA 6 Janitor / Local 6 — backend handoff
+# GTA 6 Janitors / Local 6 — backend handoff
 
 Prepared 13 November 2026. Status: implementation brief, not an operating backend.
-Frontend baseline inspected: `23dfebb` on `main`.
+Frontend baseline inspected: `23dfebb` on `main`. November 13 frontend follow-up changes the public name/ticker to GTA 6 Janitors / JANITOR; see [the update](JANITOR-FRONTEND-UPDATE.md) for the TTWO asset and homepage data contract.
 
 ## 1. Product in plain English
 
@@ -163,6 +163,6 @@ Define idempotency for mutation retries and optimistic version checks for job/co
 - Intended first community/game platform and its operator/server details.
 - Payout asset and whether 100% funds only worker awards or also approved union/server costs.
 - Treasury public address and reviewer/operator identities before payouts; signer secrets are never requested in chat or committed.
-- Final domain/X and any replacement logo when ready. Existing assets are sufficient to continue preparation.
+- Target domain is gta6janitors.fun; verify DNS/hosting. X remains unconfirmed. Existing assets are sufficient to continue preparation.
 
 Doctadog owns backend contract decisions and implementation; frontend work should follow that contract. A write-access invitation was issued separately; pending acceptance is not completed access.
