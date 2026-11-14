@@ -62,3 +62,7 @@ Responsive screenshots and browser results are recorded with the release. Backen
 - Opt-in transaction examples remain explicitly simulated and do not feed the fund totals.
 - Fund display checks: real zero remains zero; stale records, wrong mint, null amounts and reserves exceeding custody are withheld rather than displayed as verified figures.
 - No backend funding, token launch, worker verification or payout tested/activated.
+
+## CA and social follow-up
+
+Added compact `$JANITOR · CA · Soon` box below the homepage header. No mint or copy action is fabricated. Added an X-logo slot at the top right on homepage/agreement; official handle is still missing, so the button is visibly marked Soon and disabled with an accessible explanation. Replace with the exact official link when owner supplies it. Header action labels shorten on phones; membership and menu functions remain available.
