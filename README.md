@@ -31,6 +31,8 @@ Portraits are generated illustrations, not footage, documentary evidence, or end
 
 ## Backend handoff
 
+Detailed implementation brief: [docs/BACKEND-HANDOFF.md](docs/BACKEND-HANDOFF.md). It maps the current frontend to proposed APIs, data, work verification, fee accounting and payout recovery, and records the game-platform constraint and unresolved owner decisions. This brief does not enable any backend or change current financial policy.
+
 1. Publish the official mint, wallet-proof flow, token balance checks, qualification timing, and privacy terms. Never trust the frontend persona selector or local storage for authorization.
 2. Implement users, verification evidence, roles, moderation, shared posts, job listings, application delivery, ownership reviews, and notifications. Validate and escape all data server-side; add rate limits, audit logs, abuse reporting, and deletion workflows.
 3. Define contract terms, approval and dispute workflows, payout currency, any escrow, and actual funded reward rules. Token holdings must not erase rights to agreed payments.
