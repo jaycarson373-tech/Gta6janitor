@@ -8,7 +8,7 @@ Serve `dist/` with any static host. Local preview: `python3 -m http.server 4173 
 
 ## Frontend features
 
-- Direct “Quit your job. Become a GTA 6 janitor.” campaign, with a main-page DacityCoin fund panel and proposed JANITOR / DacityCoin pairing.
+- Direct “Quit your job. Become a GTA 6 janitor.” campaign, with a main-page TTWO fund panel and proposed JANITOR / TTWO pairing.
 - Community feed, job marketplace, server directory, and union transaction view.
 - Labeled worker, owner, and non-holder preview personas; distinct token-holder and verification badges.
 - Browser-local work posts, job drafts, server listings, saved jobs, likes, and application drafts. Users can delete their drafts. No shared database or publishing.

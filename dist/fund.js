@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const fields = ['feesCollectedRaw', 'workerAllocatedRaw', 'rewardsPaidRaw'];
-  const expectedQuote = 'DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump';
+  const expectedQuote = 'TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo';
   const status = document.getElementById('fund-status');
   const updated = document.getElementById('fund-updated');
   const address = x => typeof x === 'string' && /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(x);
@@ -38,7 +38,7 @@
         el.title = `${data[key]} raw units · ${data.decimals} decimals`;
       });
       status.textContent = 'Verified treasury snapshot';
-      updated.textContent = `Updated ${new Date(time).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})} · DacityCoin amounts`;
+      updated.textContent = `Updated ${new Date(time).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})} · TTWO amounts`;
     } catch {
       clear('Treasury data unavailable', 'Totals will return when a verified record is available.');
     }

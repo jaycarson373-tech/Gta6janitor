@@ -1,7 +1,7 @@
 # GTA 6 Janitors / Local 6 — backend handoff
 
 Prepared 13 November 2026. Status: implementation brief, not an operating backend.
-Frontend baseline inspected: `23dfebb` on `main`. November 13 frontend follow-up changes the public name/ticker to GTA 6 Janitors / JANITOR; see [the update](JANITORS-FRONTEND-UPDATE.md) for the DacityCoin asset and homepage data contract.
+Frontend baseline inspected: `23dfebb` on `main`. November 13 frontend follow-up changes the public name/ticker to GTA 6 Janitors / JANITOR; see [the update](JANITORS-FRONTEND-UPDATE.md) for the TTWO asset and homepage data contract.
 
 ## 1. Product in plain English
 
@@ -36,7 +36,7 @@ Keep the existing Local 6 design and approved assets. Do not rebuild the fronten
 1. Official Solana mint and network; verify decimals and token program from chain.
 2. Actual fee source and collection authority. “100%” describes the allocation of project fees actually collected, not 100% of trade volume or all venue fees.
 3. Latest brief emphasizes payouts to participating janitors. Existing Article 05 also permits server expenses and a reserve. Confirm whether the entire pool is worker-only or a wider union budget. Do not silently deduct server costs, gas or a platform cut from a worker-only promise. Model these destinations separately, leave allocation unconfigured, and reconcile public copy before activation.
-4. Payout asset, worker eligibility, award formula, caps, cadence and dispute deadlines. No reward formula has been approved. Do not invent wages, APY, equal-holder distributions or a payout timer.
+4. Owner selected TTWO for both pairing and rewards. Use verified TTWO mint TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo; verify live pool, decimals and fee receipts before enabling payouts. Do not relabel prior DacityCoin records. Still resolve worker eligibility, award formula, caps, cadence and dispute deadlines. No reward formula has been approved. Do not invent wages, APY, equal-holder distributions or a payout timer.
 5. Public treasury address, separate operational funding, signing policy and responsible reviewers. Request public addresses only; credentials belong in the deployment's secret store.
 6. Target server platform, operator and permitted integration. A Discord jobs community, GTA V/FiveM server and a future GTA VI server are not interchangeable.
 7. Membership timing: proposed MVP checks on enrollment and gated participation, with expiry/recheck metadata. Decide revocation/grace rules before enabling enforcement.
