@@ -66,3 +66,5 @@ Responsive screenshots and browser results are recorded with the release. Backen
 ## CA and social follow-up
 
 Added compact `$JANITOR · CA · Soon` box below the homepage header. No mint or copy action is fabricated. Added an X-logo slot at the top right on homepage/agreement; official handle is still missing, so the button is visibly marked Soon and disabled with an accessible explanation. Replace with the exact official link when owner supplies it. Header action labels shorten on phones; membership and menu functions remain available.
+
+Owner supplied official X: https://x.com/GTA6Janitors. Both header icons now link to that account; Soon label removed. CA remains Soon pending mint.
