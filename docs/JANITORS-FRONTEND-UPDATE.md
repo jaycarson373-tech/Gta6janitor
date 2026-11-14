@@ -82,3 +82,8 @@ Researched 21st.dev and React Bits Animated Content for component options; imple
 Both pairing and rewards use TTWO. Restored the previously verified TTWO quote mint and single-asset schema v1; all figures remain null until a verified treasury source is supplied. DacityCoin is no longer the intended quote or reward asset. Any historical DacityCoin records retain their identity and must not be relabeled. No pool, trade or payout was activated.
 
 TTWO correction QA: 390/820/1280px layouts pass without overflow or browser exceptions. Verified TTWO fixture renders correctly; former DacityCoin fixture is rejected. JS syntax and diff checks pass. Backpack/Pump asset lists rechecked for the exact TTWO mint.
+
+### JANITOR contract address — owner supplied November 13
+`Hy8jq9LjuvWfpiB3UCh2EtCnnKqupWkoTjFDE9qapump`
+
+Homepage CA chip now shows and copies this exact address. Read-only fund contract and project-mint validation use it. TTWO pairing/rewards remain unchanged. Mint supplied by owner; no pool, balances, fees or payouts inferred from the address. Backend must verify actual mint metadata, pool and treasury receipts.

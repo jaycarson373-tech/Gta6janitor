@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "unconfigured",
   "network": "solana-mainnet",
-  "projectMint": null,
+  "projectMint": "Hy8jq9LjuvWfpiB3UCh2EtCnnKqupWkoTjFDE9qapump",
   "quoteMint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
   "treasuryAddress": null,
   "decimals": null,

@@ -75,3 +75,9 @@ $$('[data-location]').forEach(b=>b.addEventListener('click',()=>selectLocation(b
 let toastTimer;function toast(message){$('#toast').textContent=message;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),4000)}
 let paused=matchMedia('(prefers-reduced-motion: reduce)').matches;function motion(){document.body.classList.toggle('motion-paused',paused);$('#motion-toggle').textContent=paused?'▶':'II';$('#motion-toggle').setAttribute('aria-label',paused?'Resume conveyor':'Pause conveyor')}$('#motion-toggle').onclick=()=>{paused=!paused;motion()};motion();
 $('.menu-toggle').onclick=()=>{const open=$('.nav nav').classList.toggle('open');$('.menu-toggle').setAttribute('aria-expanded',open);$('.menu-toggle').setAttribute('aria-label',open?'Close navigation':'Open navigation')};$$('.nav nav a').forEach(a=>a.addEventListener('click',()=>{$('.nav nav').classList.remove('open');$('.menu-toggle').setAttribute('aria-expanded','false');$('.menu-toggle').setAttribute('aria-label','Open navigation')}));updateProfile();
+
+$('#copy-contract').addEventListener('click',async()=>{
+ const button=$('#copy-contract');
+ try{await navigator.clipboard.writeText(button.dataset.address);toast('JANITOR contract address copied.')}
+ catch{const selection=window.getSelection(),range=document.createRange();range.selectNodeContents(button.querySelector('.contract-address'));selection.removeAllRanges();selection.addRange(range);toast('Address selected. Copy it from the highlighted text.')}
+});

@@ -57,3 +57,9 @@ footer{background:#0b0712;color:#f9effd;border-top:1px solid #ffffff12}.footer-t
 }
 @media(prefers-reduced-motion:no-preference){.hero h1,.hero-lead,.hero-actions{animation:night-enter .65s both}.hero-lead{animation-delay:.08s}.hero-actions{animation-delay:.14s}@keyframes night-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
 @media(max-width:700px){.hero-art{top:350px;background-size:cover;background-position:65% center;mask-image:linear-gradient(to bottom,transparent,#000 40%)}}
+
+.contract-chip{max-width:100%;gap:12px;text-align:left;transition:border-color .15s,background .15s}
+.contract-chip:hover{background:#301b3c;border-color:#d67fb4}
+.contract-address{font-family:monospace;font-size:11px;color:#f3ddef;overflow-wrap:anywhere;min-width:0;line-height:1.55;user-select:text}
+.contract-chip>svg{width:16px;height:16px;color:#e8a5ce}
+@media(max-width:700px){.contract-chip{gap:9px;padding:10px 12px}.contract-address{font-size:10px}.contract-label{padding-left:9px}.contract-token{font-size:9px}}

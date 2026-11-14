@@ -1,6 +1,7 @@
 'use strict';
 (() => {
   const fields = ['feesCollectedRaw', 'workerAllocatedRaw', 'rewardsPaidRaw'];
+  const expectedProject = 'Hy8jq9LjuvWfpiB3UCh2EtCnnKqupWkoTjFDE9qapump';
   const expectedQuote = 'TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo';
   const status = document.getElementById('fund-status');
   const updated = document.getElementById('fund-updated');
@@ -28,7 +29,7 @@
         clear('Awaiting treasury records', 'Figures appear after the treasury is verified.'); return;
       }
       const time = Date.parse(data.updatedAt), age = Date.now() - time;
-      if (data.schemaVersion !== 1 || data.status !== 'verified' || data.network !== 'solana-mainnet' || data.quoteMint !== expectedQuote || !address(data.projectMint) || !address(data.treasuryAddress) || !Number.isInteger(data.decimals) || data.decimals < 0 || data.decimals > 18 || !fields.every(k => amount(data[k])) || !amount(data.treasuryBalanceRaw) || BigInt(data.workerAllocatedRaw) > BigInt(data.treasuryBalanceRaw) || !Number.isFinite(time) || age < -60000) throw new Error('Invalid record');
+      if (data.schemaVersion !== 1 || data.status !== 'verified' || data.network !== 'solana-mainnet' || data.quoteMint !== expectedQuote || data.projectMint !== expectedProject || !address(data.treasuryAddress) || !Number.isInteger(data.decimals) || data.decimals < 0 || data.decimals > 18 || !fields.every(k => amount(data[k])) || !amount(data.treasuryBalanceRaw) || BigInt(data.workerAllocatedRaw) > BigInt(data.treasuryBalanceRaw) || !Number.isFinite(time) || age < -60000) throw new Error('Invalid record');
       if (age > 15 * 60 * 1000) {
         clear('Update pending', 'The last treasury record is over 15 minutes old.'); return;
       }

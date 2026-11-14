@@ -166,3 +166,8 @@ Define idempotency for mutation retries and optimistic version checks for job/co
 - Target domain is gta6janitors.fun; verify DNS/hosting. X remains unconfirmed. Existing assets are sufficient to continue preparation.
 
 Doctadog owns backend contract decisions and implementation; frontend work should follow that contract. A write-access invitation was issued separately; pending acceptance is not completed access.
+
+### JANITOR contract address — owner supplied November 13
+`Hy8jq9LjuvWfpiB3UCh2EtCnnKqupWkoTjFDE9qapump`
+
+Homepage CA chip now shows and copies this exact address. Read-only fund contract and project-mint validation use it. TTWO pairing/rewards remain unchanged. Mint supplied by owner; no pool, balances, fees or payouts inferred from the address. Backend must verify actual mint metadata, pool and treasury receipts.
